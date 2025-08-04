@@ -1,70 +1,72 @@
-# 🎻 Echoes of Time – The Violin of Dresden
+# 🌍 Echoes of Time – A History Website
 
-**A pure HTML history project** telling the story of a Jewish boy and his violin – across four meaningful web pages.
+**Echoes of Time** is a 4-page static history website that explores the fictional story of the lost city of Kardum — its origins, its key figures, the artifacts left behind, and its lasting legacy.
 
 ---
 
 ## 📁 Project Structure
 
 
----
-
-## 📄 Pages Overview
-
-### 1. `origins.html` – How It All Began
-- Historical background: When and where it happened
-- Why it matters
-- Introduction to the setting: Dresden, Jewish community, young Joseph Weiss
-
-### 2. `figures.html` – The Main Character
-- Biography of Joseph Weiss (child, refugee, musician)
-- Life before and after the war
-- Personal quotes, contributions, legacy
-
-### 3. `artifacts.html` – What Remained
-- Main object: Joseph’s violin
-- Explained using `<figure>` and `<figcaption>`
-- Details about the instrument, its journey, and meaning
-
-### 4. `legacy.html` – Memory Today
-- How the story is remembered now
-- Memorials, museums, education, and cultural impact
-- His grandson continuing the tradition
 
 ---
 
-## 🖼 Media Used
+## 📄 Page Overview & Media Used
 
-- 🎧 **Audio file**: `assets/audio/739e70.wav` – symbolic violin tune
-- 🎥 **Video folder**: placeholder for future video content
-- Media types may include: `<img>`, `<audio>`, `<iframe>`
-
----
-
-## 🌐 HTML Requirements
-
-Each page includes:
-- At least **300 words** of original content
-- Clear headings using `<h1>`, `<h2>`, `<h3>`
-- Semantic HTML structure: `<section>`, `<article>`, `<nav>`, `<footer>`, etc.
-- Navigation bar linking all pages
-- Internal anchor links (`<a href="#...">`) within each page
-- At least **2 media types**
-- At least **3 interactive elements**: `<details>`, `<a href="#popup">`, or `<blockquote>`
+### 1. `origins.html` – The Beginning
+- 📂 Path: `pages/origins.html`
+- 🧭 Content: Discovery of Kardum, founding by Priestess Almina
+- 🎧 Media: **Audio** – Ambient desert wind  
+  ↪ File: `../assets/audio/147777__felixblume__wind-blowing-and-howling.wav`
+- ✅ `<audio>` tag embedded in the page
 
 ---
 
-## ✅ Optional Enhancements
+### 2. `figures.html` – The Key Figures
+- 📂 Path: `pages/figures.html`
+- 🧭 Content: Priestess Almina, The Council of Seven, The Silent Scribe
+- 🎥 Media: **Video** – Campfire meeting of figures  
+  ↪ File: `../assets/video/853848-hd_1920_1080_25fps.mp4`
+- ✅ `<video>` tag placed in context
 
-- Timeline using `<table>`
-- Glossary using `<dl>`, `<dt>`, `<dd>`
-- Foreign language quote using `<p lang="...">`
+---
+
+### 3. `artifacts.html` – The Objects Left Behind
+- 📂 Path: `pages/artifacts.html`
+- 🧭 Content: Sacred artifacts – prayer vessel, sound tablet, symbolic time device
+- 🖼 Media: **Image** – Pottery display  
+  ↪ File: `../assets/photo/mahfuz-ahmed-lfHCOZj61Hw-unsplash.jpg`
+- ✅ `<img>` used inside `<article>` with context
 
 ---
 
-## 🧠 About the Project
-
-This project is part of a historical storytelling exercise using HTML only (no CSS or JS).  
-It focuses on accessibility, semantic structure, and engaging narrative through simple markup and meaningful content.
+### 4. `legacy.html` – The Legacy
+- 📂 Path: `pages/legacy.html`
+- 🧭 Content: The impact of Kardum in education, culture, and virtual experiences
+- 🌐 Media: **Iframe** – 3D tour from Sketchfab  
+  ↪ URL: `https://sketchfab.com/models/27e260a139f74aeeb96aab9c6b5e8699/embed`
+- ✅ `<iframe>` embedded in the middle of the page
 
 ---
+
+## ✅ Project Highlights
+
+- ✔️ 4 interconnected HTML pages
+- ✔️ Uses semantic HTML tags: `<section>`, `<article>`, `<figure>`, `<nav>`, `<audio>`, `<video>`, `<iframe>`, etc.
+- ✔️ Each page includes one unique media type
+- ✔️ Clear `<nav>` with links between all pages
+- ❌ No CSS, JavaScript, or forms used – HTML only
+
+---
+
+## 🧠 Educational Purpose
+
+This website simulates a historical archive or mini-museum using only HTML.  
+It encourages narrative storytelling, media usage, and semantic structure — suitable for history, design, or computer science projects.
+
+---
+
+## 👤 Author
+
+Created by: *Yoel ider*  
+---
+
